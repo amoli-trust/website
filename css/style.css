@@ -26,6 +26,9 @@
   max-width: 100px;
   height: auto;
 }
+.delhi-map {
+  margin-top: 2em;
+}
 
 body {
   font-family: "Work Sans", Arial, sans-serif;
