@@ -1,11 +1,10 @@
 @font-face {
-  font-family: "icomoon";
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix")
-      format("embedded-opentype"),
-    url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"),
-    url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"),
-    url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon/icomoon.eot?srf3rx');
+  src: url('../fonts/icomoon/icomoon.eot?srf3rx#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon/icomoon.ttf?srf3rx') format('truetype'),
+    url('../fonts/icomoon/icomoon.woff?srf3rx') format('woff'),
+    url('../fonts/icomoon/icomoon.svg?srf3rx#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -30,15 +29,29 @@
   margin-top: 2em;
 }
 
-.delhi-map img{
+.delhi-map img {
   width: 100%;
   height: auto;
 }
-
-
+.modal {
+  overflow-y: auto;
+  padding-right: 0px !important;
+}
+.modal-open {
+  overflow: auto;
+  padding-right: 0px !important;
+}
+#myModal {
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+}
+.google-form {
+  font-size: 2.3rem !important;
+}
 
 body {
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: 'Work Sans', Arial, sans-serif;
   font-weight: 300;
   font-size: 20px;
   line-height: 1.7;
@@ -78,7 +91,7 @@ h4,
 h5,
 h6 {
   color: #000;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: 'Work Sans', Arial, sans-serif;
   font-weight: 300;
   margin: 0 0 30px 0;
 }
@@ -370,7 +383,7 @@ h6 {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: 'Work Sans', Arial, sans-serif;
   font-size: 18px;
   font-weight: 400;
   -webkit-border-radius: 0px;
@@ -560,7 +573,7 @@ h6 {
   position: relative;
 }
 .fh5co-check li:before {
-  font-family: "icomoon";
+  font-family: 'icomoon';
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -573,7 +586,7 @@ h6 {
   position: absolute;
   left: 0;
   top: 0.3em;
-  content: "\f00c";
+  content: '\f00c';
   color: #ff6576;
 }
 
@@ -745,7 +758,7 @@ h6 {
 .gallery-container h1 {
   text-align: center;
   margin-top: 70px;
-  font-family: "Droid Sans", sans-serif;
+  font-family: 'Droid Sans', sans-serif;
   font-weight: bold;
 }
 
